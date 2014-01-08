@@ -6,5 +6,12 @@ public class Runner {
 		
 		shop.construct(new MotorCycleBuilder());
 		shop.showVehicle();
+		
+StringBuilder sb = new StringBuilder();
+sb.append(" Welcome to the world of design patterns. ");
+sb.insert(6, "Some word");
+sb.replace(12, 15, "str");
+
+String result = sb.toString();
 	}
 }
